@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://yui.yahooapis.com/3.11.0/build/cssnormalize-context/cssnormalize-context-min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            height="50"
+            width="50"
+            src="img/Foto perfil.jpg"
+            alt="Arquitecta"
+          />
+          <div>
+            Sofia Depetris<br />
+            { Arquitecta }
+          </div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menu">
+          <img height="50" width="50" src="img/menu.png" alt="abrir menu" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menu">
+            <img
+              height="50"
+              width="50"
+              src="img/close icon.png"
+              alt="cerrar menu"
+            />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#experiencie">Experiencia</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Hola, soy <br />Sofía Depetris</h1>
+          <p class="profile-details">
+            Soy Arquitecta, egresada de la Universidad Nacional de Rosario.
+            Actualmente me encuentro aprendiendo sobre la arquitectura y
+            desarrollo de software.
+          </p>
+          <button class="profile-btn">Descargar CV</button>
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="img/Foto perfil.png"
+            alt="Arquitecta Programadora"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="experiences" id="experiencie">
+      <img src="img/wave.svg" alt="división" class="wave" />
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2021-Act</div>
+            <div class="experience-company">
+              Empresa Constructora Minervino S.A
+            </div>
+            <div class="experience-position">Legajista</div>
+            <div class="experience-description">
+              Ejecución de legajos, detalles constructivos, modelos 3D, visitas
+              a obra.
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">2021-2022</div>
+            <div class="experience-company">
+              Secretaria de Deporte y Turismo (MR)
+            </div>
+            <div class="experience-position">Directora de Infraestructura</div>
+            <div class="experience-description">
+              Ejecución de planos, pliegos licitatorios, modelos 3D, imagenes y
+              videos.
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">2020-2021</div>
+            <div class="experience-company">
+              Estudio de Arq. Munini Galfione
+            </div>
+            <div class="experience-position">Arquitecta proyectista</div>
+            <div class="experience-description">
+              Ejecución de anteproyectos, proyectos, modelos 3D, imagenes,
+              videos, presupuestos, detalles constructivos. Visita y Dirección
+              de obra.
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">Node</li>
+          <li class="skills-skill">JavaScrip</li>
+          <li class="skills-skill">Autocad</li>
+          <li class="skills-skill">REVIT</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="contact" id="contact">
+        <h2 class="contact-title">Contacto</h2>
+        <div class="contact-details">
+          <div class="contact-details-group">
+            <p class="contact-label">Dirección</p>
+            <p class="contact-text">Rosario, Santa Fe</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-label">Email</p>
+            <p class="contact-text">sofia.depetris@outlook.com</p>
+          </div>
+          <div class="contact-details-group">
+            <p class="contact-text">
+              Deje su mensaje y con gusto le responderé
+            </p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="contact-form-group">
+            <label for="name">Nombre</label>
+            <input required type="text" name="name" id="name" />
+          </div>
+          <div class="contact-form-group">
+            <label for="email">Email</label>
+            <input required type="" name="email" id="email" />
+          </div>
+          <div class="contact-form-group">
+            <label for="message">Mensaje</label>
+            <textarea required name="message" id="message" rows="6"></textarea>
+          </div>
+
+          <button type="submit" class="contact-form-submit">Enviar</button>
+        </form>
+        <nav class="social">
+          <ul class="social-list"
+            <li>
+              <a href="https://twitter.com/SofiDepetris">
+                <img src="img/twitter.svg" alt="twitter profile" />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/SofiDepe">
+                <img src="img/github.svg" alt="github profile" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/sofia-depetris-605b92164/">
+                <img src="img/linkedin.svg" alt="linkedin profile" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </body>
+</html>
